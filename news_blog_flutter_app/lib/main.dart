@@ -17,7 +17,8 @@ class MyApp extends StatelessWidget {
     deviceHeight = MediaQuery.of(context).size.height;
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'News Blog',
+      theme: ThemeData.dark(),
       home: PhoneView(),
     );
   }

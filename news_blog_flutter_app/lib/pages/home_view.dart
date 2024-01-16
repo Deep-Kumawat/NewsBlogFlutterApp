@@ -23,6 +23,7 @@ class _HomeViewState extends State<HomeView> {
       appBar: AppBar(
         centerTitle: true,
         title: Text(_title),
+        automaticallyImplyLeading: false,
       ),
       body: bottomNavigationBarScreens[_selectedIndex],
       bottomNavigationBar: BottomNavigationBar(
