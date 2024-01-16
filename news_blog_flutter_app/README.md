@@ -1,6 +1,6 @@
 # NewsBlogFlutterApp
 A news app created with flutter.
-# It should have:
+# Development Todo:
 - Firebase authentication
 - ~~Phone Number Page~~
 - ~~OTP Page~~
