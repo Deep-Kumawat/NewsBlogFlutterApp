@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 class NewsBlogStyles {
   static final standardButtonStyles = ButtonStyle(
       backgroundColor: const MaterialStatePropertyAll(Colors.red),
-      minimumSize: const MaterialStatePropertyAll(Size(200.0, 70.0)),
+      minimumSize: const MaterialStatePropertyAll(Size(200.0, 60.0)),
+      padding: MaterialStatePropertyAll(EdgeInsets.all(18.0)),
       shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                 RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(8.0), // Set the corner radius
@@ -12,7 +13,7 @@ class NewsBlogStyles {
     );
   static final standardButtonTextStyles = TextStyle(
     color: Colors.white,
-    fontSize: 18
+    fontSize: 14
   );
   static final textFieldStyles = TextStyle(
     color: Colors.white,

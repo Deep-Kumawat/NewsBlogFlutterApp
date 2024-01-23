@@ -1,9 +1,17 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:news_blog_flutter_app/firebase_options.dart';
 import 'package:news_blog_flutter_app/pages/authentication/phone_view.dart';
 
 late double deviceWidth;
 late double deviceHeight;
-void main() {
+void main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+  try {
+    await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  } catch (e) {
+    print('Error initializing Firebase: $e');
+  }
   runApp(const MyApp());
 }
 
@@ -19,7 +27,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'News Blog',
       theme: ThemeData.dark(),
-      home: PhoneView(),
+      home: const PhoneView(),
     );
   }
 }

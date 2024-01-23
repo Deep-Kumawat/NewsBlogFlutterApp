@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "690121051237",
+    "project_id": "newblog-b8aa8",
+    "storage_bucket": "newblog-b8aa8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690121051237:android:9b5d65038dc63b46dd0a8c",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5hiUbs6DhIax14cTTojvY5A8JtGVbtBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690121051237:android:d34a98f7e6cfe577dd0a8c",
+        "android_client_info": {
+          "package_name": "com.example.news_blog_flutter_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5hiUbs6DhIax14cTTojvY5A8JtGVbtBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

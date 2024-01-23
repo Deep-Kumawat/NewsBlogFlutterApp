@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:news_blog_flutter_app/main.dart';
 import 'package:news_blog_flutter_app/pages/home_view.dart';
-import 'package:news_blog_flutter_app/pages/news_view.dart';
 import 'package:news_blog_flutter_app/styles/main_styles.dart';
 
 enum _Gender { Male, Female }
@@ -19,7 +18,8 @@ class _ProfileViewState extends State<ProfileView> {
 
   @override
   Widget build(BuildContext context) {
-    return Column(children: [
+    return Column(
+      children: [
       Column(
         children: [
           Center(
